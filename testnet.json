@@ -1,4 +1,4 @@
-```json
+
 {
   "chain_id": "funnet-001",
   "network_name": "Fun Testnet",
@@ -47,5 +47,5 @@
     "purpose": "testing-only"
   }
 }
-```
+
 
