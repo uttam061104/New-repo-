@@ -1,0 +1,48 @@
+{
+  "chain_id": "funnet-001",
+  "network_name": "Fun Testnet",
+  "genesis_time": "2026-06-11T00:00:00Z",
+  "consensus": {
+    "block_time_seconds": 5,
+    "max_validators": 8
+  },
+  "token": {
+    "symbol": "FUN",
+    "decimals": 18,
+    "initial_supply": "1000000000"
+  },
+  "validators": [
+    {
+      "name": "validator-alpha",
+      "address": "funval1q8x7n2k4m5p9z3t6v1y8r0c2d4e6f7g8h9",
+      "stake": "25000000"
+    },
+    {
+      "name": "validator-beta",
+      "address": "funval1p3m9t6z2k8x5v1c7r4d0e2f8g6h3j5l9n1",
+      "stake": "25000000"
+    }
+  ],
+  "accounts": [
+    {
+      "address": "fun1a7b9c2d4e6f8g1h3j5k7m9n2p4q6r8s0t1u",
+      "balance": "500000000"
+    },
+    {
+      "address": "fun1z8y7x6w5v4u3t2s1r0q9p8n7m6k5j4h3g2f",
+      "balance": "450000000"
+    }
+  ],
+  "governance": {
+    "voting_period_blocks": 1000,
+    "quorum_percent": 33
+  },
+  "faucet": {
+    "enabled": true,
+    "max_request_amount": "1000"
+  },
+  "metadata": {
+    "created_by": "random-generator",
+    "purpose": "testing-only"
+  }
+}
